@@ -1,14 +1,15 @@
 {
-  "name": "Learning Vue x Axios",
-  "description": "Vue Axios",
+  "name": "vue-update",
+  "description": "Vue Auth & more",
   "version": "1.0.0",
-  "author": "Indra Kusuma <id.indrakusuma@gmail.com>",
+  "author": "Maximilian Schwarzmüller <business@academind.com>",
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "vue": "^2.4.4",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.0"
